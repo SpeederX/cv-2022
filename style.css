@@ -1,0 +1,152 @@
+body {
+    font-size: 16px;
+    background-color: #777;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-justify-space-between {
+    justify-content: space-between;
+}
+
+.flex-justify-space-around {
+    justify-content: space-around;
+}
+
+.flex-justify-space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-align-end {
+    align-self: flex-end;
+    align-items: flex-end;
+}
+.flex-align-start-end {
+    align-self: flex-start;
+    align-items: flex-end;
+}
+.flex-align-start-stretch {
+    align-self: flex-start;
+    align-items: stretch;
+}
+.flex-align-center {
+    align-self: center;
+    align-items: center;
+}
+
+.flex-align-vertical-center {
+    align-self: center;
+}
+
+.contacts{
+    font-weight: bold;
+}
+.contacts a{
+    color: rgb(255, 145, 0);
+}
+
+.category {
+    border-bottom: 2px solid rgb(255, 136, 0);
+    border-left: 2px solid rgb(255, 136, 0);
+    border-right: 2px solid rgb(255, 136, 0);
+    color: #000;
+    text-align: center;
+    width: 200px;
+}
+.title-category {
+    background-color: rgb(255, 136, 0);
+    color: #000;
+    padding: 5px 0px;
+    text-align: center;
+    width: 200px;
+}
+.work-experience-title {
+    background-color: rgb(255, 136, 0);
+    color: #000;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.subcategory {
+    background-color: rgb(255, 145, 0);
+    color: #555;
+    padding: 5px;
+}
+h4 {
+    margin: 0;
+}
+h3 {
+    margin: 0;
+}
+.p-5 {
+    padding: 5px;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.pr-5 {
+    padding-right: 5px;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.pb-5 {
+    padding-bottom: 5px;
+}
+.m-5 {
+    margin: 5px;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+ul {
+    padding:0;
+}
+li {
+    list-style-type: none;
+    color: #fff;
+}
+.job-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.work-experiences-container {
+    border-bottom: 2px solid rgb(255, 136, 0);
+    border-left: 2px solid rgb(255, 136, 0);
+    border-right: 2px solid rgb(255, 136, 0);
+}
+.work-experience{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.flex-1 {
+    flex: 1;
+}
+.gdpr{
+    font-size: 0.75rem;
+}
