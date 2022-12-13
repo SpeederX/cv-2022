@@ -59,7 +59,6 @@ body {
 .contacts a{
     color: rgb(255, 145, 0);
 }
-
 .category {
     border-bottom: 2px solid rgb(255, 136, 0);
     border-left: 2px solid rgb(255, 136, 0);
@@ -75,6 +74,85 @@ body {
     text-align: center;
     width: 200px;
 }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+    .category {
+        border-bottom: 2px solid rgb(255, 136, 0);
+        border-left: 2px solid rgb(255, 136, 0);
+        border-right: 2px solid rgb(255, 136, 0);
+        color: #000;
+        text-align: center;
+        width: 200px;
+    }
+    .title-category {
+        background-color: rgb(255, 136, 0);
+        color: #000;
+        padding: 5px 0px;
+        text-align: center;
+        width: 200px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .category {
+        border-bottom: 2px solid rgb(255, 136, 0);
+        border-left: 2px solid rgb(255, 136, 0);
+        border-right: 2px solid rgb(255, 136, 0);
+        color: #000;
+        text-align: center;
+        width: 250px;
+    }
+    .title-category {
+        background-color: rgb(255, 136, 0);
+        color: #000;
+        padding: 5px 0px;
+        text-align: center;
+        width: 250px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .category {
+        border-bottom: 2px solid rgb(255, 136, 0);
+        border-left: 2px solid rgb(255, 136, 0);
+        border-right: 2px solid rgb(255, 136, 0);
+        color: #000;
+        text-align: center;
+        width: 300px;
+    }
+    .title-category {
+        background-color: rgb(255, 136, 0);
+        color: #000;
+        padding: 5px 0px;
+        text-align: center;
+        width: 300px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .category {
+        border-bottom: 2px solid rgb(255, 136, 0);
+        border-left: 2px solid rgb(255, 136, 0);
+        border-right: 2px solid rgb(255, 136, 0);
+        color: #000;
+        text-align: center;
+        flex: 1;
+        width: 700px;
+    }
+    .title-category {
+        background-color: rgb(255, 136, 0);
+        color: #000;
+        padding: 5px 0px;
+        text-align: center;
+        width: 700px;
+    }
+}
+
+
 .work-experience-title {
     background-color: rgb(255, 136, 0);
     color: #000;
@@ -148,5 +226,11 @@ li {
     flex: 1;
 }
 .gdpr{
+    font-size: 0.75rem;
+}
+.working-year{
+    font-size: 0.75rem;
+}
+.working-experience-detail{
     font-size: 0.75rem;
 }
